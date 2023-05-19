@@ -1,0 +1,37 @@
+:root{
+    --AzulPrimary: #0d47a1;
+    --Neutro: #e3f2fd;
+    --AzulSecundary: #2196f3;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0d47a1,#e3f2fd);
+}
+.container{
+    height: 480;
+    width: 280;
+    background: var(--AzulSecundary);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+h1, p{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--Neutro);
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+label{
+    color: var(--Neutro);
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.form-check{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 100%;
+}
